@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82B3ADEF17601E08004E72D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B3ADEE17601E08004E72D5 /* UIKit.framework */; };
+		82B3ADF117601E08004E72D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B3ADF017601E08004E72D5 /* Foundation.framework */; };
+		82B3ADF317601E08004E72D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82B3ADF217601E08004E72D5 /* CoreGraphics.framework */; };
+		82B3ADF917601E08004E72D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82B3ADF717601E08004E72D5 /* InfoPlist.strings */; };
+		82B3ADFB17601E08004E72D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B3ADFA17601E08004E72D5 /* main.m */; };
+		82B3ADFF17601E08004E72D5 /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B3ADFE17601E08004E72D5 /* MyAppDelegate.m */; };
+		82B3AE0117601E08004E72D5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AE0017601E08004E72D5 /* Default.png */; };
+		82B3AE0317601E08004E72D5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AE0217601E08004E72D5 /* Default@2x.png */; };
+		82B3AE0517601E08004E72D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AE0417601E08004E72D5 /* Default-568h@2x.png */; };
+		82B3AE9917601FF4004E72D5 /* WaterFlowVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B3AE9817601FF4004E72D5 /* WaterFlowVC.m */; };
+		82B3AEA11760238A004E72D5 /* TMQuiltView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B3AE9C1760238A004E72D5 /* TMQuiltView.m */; };
+		82B3AEA21760238A004E72D5 /* TMQuiltViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B3AE9E1760238A004E72D5 /* TMQuiltViewCell.m */; };
+		82B3AEA31760238A004E72D5 /* TMQuiltViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B3AEA01760238A004E72D5 /* TMQuiltViewController.m */; };
+		82B3AEA61760244D004E72D5 /* TMPhotoQuiltViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B3AEA51760244D004E72D5 /* TMPhotoQuiltViewCell.m */; };
+		82B3AEB217602BA3004E72D5 /* 1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEA817602BA3004E72D5 /* 1.jpeg */; };
+		82B3AEB317602BA3004E72D5 /* 10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEA917602BA3004E72D5 /* 10.jpeg */; };
+		82B3AEB417602BA3004E72D5 /* 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEAA17602BA3004E72D5 /* 2.jpeg */; };
+		82B3AEB517602BA3004E72D5 /* 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEAB17602BA3004E72D5 /* 3.jpeg */; };
+		82B3AEB617602BA3004E72D5 /* 4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEAC17602BA3004E72D5 /* 4.jpeg */; };
+		82B3AEB717602BA3004E72D5 /* 5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEAD17602BA3004E72D5 /* 5.jpeg */; };
+		82B3AEB817602BA3004E72D5 /* 6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEAE17602BA3004E72D5 /* 6.jpeg */; };
+		82B3AEB917602BA3004E72D5 /* 7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEAF17602BA3004E72D5 /* 7.jpeg */; };
+		82B3AEBA17602BA3004E72D5 /* 8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEB017602BA3004E72D5 /* 8.jpeg */; };
+		82B3AEBB17602BA3004E72D5 /* 9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82B3AEB117602BA3004E72D5 /* 9.jpeg */; };
+		82B3AEBC17602FCD004E72D5 /* TMQuiltView.h in Sources */ = {isa = PBXBuildFile; fileRef = 82B3AE9B1760238A004E72D5 /* TMQuiltView.h */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		82B3AEBD17602FCD004E72D5 /* TMQuiltViewCell.h in Sources */ = {isa = PBXBuildFile; fileRef = 82B3AE9D1760238A004E72D5 /* TMQuiltViewCell.h */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		82B3AEBE17602FCD004E72D5 /* TMQuiltViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 82B3AE9F1760238A004E72D5 /* TMQuiltViewController.h */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82B3ADEB17601E08004E72D5 /* WaterFlowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterFlowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82B3ADEE17601E08004E72D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82B3ADF017601E08004E72D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82B3ADF217601E08004E72D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82B3ADF617601E08004E72D5 /* WaterFlowDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaterFlowDemo-Info.plist"; sourceTree = "<group>"; };
+		82B3ADF817601E08004E72D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82B3ADFA17601E08004E72D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82B3ADFC17601E08004E72D5 /* WaterFlowDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WaterFlowDemo-Prefix.pch"; sourceTree = "<group>"; };
+		82B3ADFD17601E08004E72D5 /* MyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		82B3ADFE17601E08004E72D5 /* MyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
+		82B3AE0017601E08004E72D5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82B3AE0217601E08004E72D5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		82B3AE0417601E08004E72D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		82B3AE9717601FF4004E72D5 /* WaterFlowVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterFlowVC.h; sourceTree = "<group>"; };
+		82B3AE9817601FF4004E72D5 /* WaterFlowVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterFlowVC.m; sourceTree = "<group>"; };
+		82B3AE9B1760238A004E72D5 /* TMQuiltView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltView.h; sourceTree = "<group>"; };
+		82B3AE9C1760238A004E72D5 /* TMQuiltView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltView.m; sourceTree = "<group>"; };
+		82B3AE9D1760238A004E72D5 /* TMQuiltViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltViewCell.h; sourceTree = "<group>"; };
+		82B3AE9E1760238A004E72D5 /* TMQuiltViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltViewCell.m; sourceTree = "<group>"; };
+		82B3AE9F1760238A004E72D5 /* TMQuiltViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMQuiltViewController.h; sourceTree = "<group>"; };
+		82B3AEA01760238A004E72D5 /* TMQuiltViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMQuiltViewController.m; sourceTree = "<group>"; };
+		82B3AEA41760244D004E72D5 /* TMPhotoQuiltViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMPhotoQuiltViewCell.h; path = TMQuiltView/TMPhotoQuiltViewCell.h; sourceTree = "<group>"; };
+		82B3AEA51760244D004E72D5 /* TMPhotoQuiltViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMPhotoQuiltViewCell.m; path = TMQuiltView/TMPhotoQuiltViewCell.m; sourceTree = "<group>"; };
+		82B3AEA817602BA3004E72D5 /* 1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpeg; sourceTree = "<group>"; };
+		82B3AEA917602BA3004E72D5 /* 10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpeg; sourceTree = "<group>"; };
+		82B3AEAA17602BA3004E72D5 /* 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpeg; sourceTree = "<group>"; };
+		82B3AEAB17602BA3004E72D5 /* 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpeg; sourceTree = "<group>"; };
+		82B3AEAC17602BA3004E72D5 /* 4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpeg; sourceTree = "<group>"; };
+		82B3AEAD17602BA3004E72D5 /* 5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpeg; sourceTree = "<group>"; };
+		82B3AEAE17602BA3004E72D5 /* 6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpeg; sourceTree = "<group>"; };
+		82B3AEAF17602BA3004E72D5 /* 7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpeg; sourceTree = "<group>"; };
+		82B3AEB017602BA3004E72D5 /* 8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpeg; sourceTree = "<group>"; };
+		82B3AEB117602BA3004E72D5 /* 9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82B3ADE817601E08004E72D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B3ADEF17601E08004E72D5 /* UIKit.framework in Frameworks */,
+				82B3ADF117601E08004E72D5 /* Foundation.framework in Frameworks */,
+				82B3ADF317601E08004E72D5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B3ADE217601E08004E72D5 = {
+			isa = PBXGroup;
+			children = (
+				82B3AE9A1760238A004E72D5 /* TMQuiltView */,
+				82B3ADF417601E08004E72D5 /* WaterFlowDemo */,
+				82B3ADED17601E08004E72D5 /* Frameworks */,
+				82B3ADEC17601E08004E72D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82B3ADEC17601E08004E72D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82B3ADEB17601E08004E72D5 /* WaterFlowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82B3ADED17601E08004E72D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82B3ADEE17601E08004E72D5 /* UIKit.framework */,
+				82B3ADF017601E08004E72D5 /* Foundation.framework */,
+				82B3ADF217601E08004E72D5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82B3ADF417601E08004E72D5 /* WaterFlowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				82B3ADFD17601E08004E72D5 /* MyAppDelegate.h */,
+				82B3ADFE17601E08004E72D5 /* MyAppDelegate.m */,
+				82B3AEA41760244D004E72D5 /* TMPhotoQuiltViewCell.h */,
+				82B3AEA51760244D004E72D5 /* TMPhotoQuiltViewCell.m */,
+				82B3AE9717601FF4004E72D5 /* WaterFlowVC.h */,
+				82B3AE9817601FF4004E72D5 /* WaterFlowVC.m */,
+				82B3AEA717602BA3004E72D5 /* images */,
+				82B3ADF517601E08004E72D5 /* Supporting Files */,
+			);
+			path = WaterFlowDemo;
+			sourceTree = "<group>";
+		};
+		82B3ADF517601E08004E72D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82B3ADF617601E08004E72D5 /* WaterFlowDemo-Info.plist */,
+				82B3ADF717601E08004E72D5 /* InfoPlist.strings */,
+				82B3ADFA17601E08004E72D5 /* main.m */,
+				82B3ADFC17601E08004E72D5 /* WaterFlowDemo-Prefix.pch */,
+				82B3AE0017601E08004E72D5 /* Default.png */,
+				82B3AE0217601E08004E72D5 /* Default@2x.png */,
+				82B3AE0417601E08004E72D5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82B3AE9A1760238A004E72D5 /* TMQuiltView */ = {
+			isa = PBXGroup;
+			children = (
+				82B3AE9B1760238A004E72D5 /* TMQuiltView.h */,
+				82B3AE9C1760238A004E72D5 /* TMQuiltView.m */,
+				82B3AE9D1760238A004E72D5 /* TMQuiltViewCell.h */,
+				82B3AE9E1760238A004E72D5 /* TMQuiltViewCell.m */,
+				82B3AE9F1760238A004E72D5 /* TMQuiltViewController.h */,
+				82B3AEA01760238A004E72D5 /* TMQuiltViewController.m */,
+			);
+			name = TMQuiltView;
+			path = WaterFlowDemo/TMQuiltView;
+			sourceTree = "<group>";
+		};
+		82B3AEA717602BA3004E72D5 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				82B3AEA817602BA3004E72D5 /* 1.jpeg */,
+				82B3AEA917602BA3004E72D5 /* 10.jpeg */,
+				82B3AEAA17602BA3004E72D5 /* 2.jpeg */,
+				82B3AEAB17602BA3004E72D5 /* 3.jpeg */,
+				82B3AEAC17602BA3004E72D5 /* 4.jpeg */,
+				82B3AEAD17602BA3004E72D5 /* 5.jpeg */,
+				82B3AEAE17602BA3004E72D5 /* 6.jpeg */,
+				82B3AEAF17602BA3004E72D5 /* 7.jpeg */,
+				82B3AEB017602BA3004E72D5 /* 8.jpeg */,
+				82B3AEB117602BA3004E72D5 /* 9.jpeg */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82B3ADEA17601E08004E72D5 /* WaterFlowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B3AE0817601E08004E72D5 /* Build configuration list for PBXNativeTarget "WaterFlowDemo" */;
+			buildPhases = (
+				82B3ADE717601E08004E72D5 /* Sources */,
+				82B3ADE817601E08004E72D5 /* Frameworks */,
+				82B3ADE917601E08004E72D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterFlowDemo;
+			productName = WaterFlowDemo;
+			productReference = 82B3ADEB17601E08004E72D5 /* WaterFlowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82B3ADE317601E08004E72D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = My;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 82B3ADE617601E08004E72D5 /* Build configuration list for PBXProject "WaterFlowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82B3ADE217601E08004E72D5;
+			productRefGroup = 82B3ADEC17601E08004E72D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82B3ADEA17601E08004E72D5 /* WaterFlowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82B3ADE917601E08004E72D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B3ADF917601E08004E72D5 /* InfoPlist.strings in Resources */,
+				82B3AE0117601E08004E72D5 /* Default.png in Resources */,
+				82B3AE0317601E08004E72D5 /* Default@2x.png in Resources */,
+				82B3AE0517601E08004E72D5 /* Default-568h@2x.png in Resources */,
+				82B3AEB217602BA3004E72D5 /* 1.jpeg in Resources */,
+				82B3AEB317602BA3004E72D5 /* 10.jpeg in Resources */,
+				82B3AEB417602BA3004E72D5 /* 2.jpeg in Resources */,
+				82B3AEB517602BA3004E72D5 /* 3.jpeg in Resources */,
+				82B3AEB617602BA3004E72D5 /* 4.jpeg in Resources */,
+				82B3AEB717602BA3004E72D5 /* 5.jpeg in Resources */,
+				82B3AEB817602BA3004E72D5 /* 6.jpeg in Resources */,
+				82B3AEB917602BA3004E72D5 /* 7.jpeg in Resources */,
+				82B3AEBA17602BA3004E72D5 /* 8.jpeg in Resources */,
+				82B3AEBB17602BA3004E72D5 /* 9.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82B3ADE717601E08004E72D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B3AEBC17602FCD004E72D5 /* TMQuiltView.h in Sources */,
+				82B3AEBD17602FCD004E72D5 /* TMQuiltViewCell.h in Sources */,
+				82B3AEBE17602FCD004E72D5 /* TMQuiltViewController.h in Sources */,
+				82B3ADFB17601E08004E72D5 /* main.m in Sources */,
+				82B3ADFF17601E08004E72D5 /* MyAppDelegate.m in Sources */,
+				82B3AE9917601FF4004E72D5 /* WaterFlowVC.m in Sources */,
+				82B3AEA11760238A004E72D5 /* TMQuiltView.m in Sources */,
+				82B3AEA21760238A004E72D5 /* TMQuiltViewCell.m in Sources */,
+				82B3AEA31760238A004E72D5 /* TMQuiltViewController.m in Sources */,
+				82B3AEA61760244D004E72D5 /* TMPhotoQuiltViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82B3ADF717601E08004E72D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82B3ADF817601E08004E72D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82B3AE0617601E08004E72D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82B3AE0717601E08004E72D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82B3AE0917601E08004E72D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TMQuiltView/TMQuiltViewTests/Frameworks\"",
+					"\"$(SRCROOT)/TMQuiltViewTests/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaterFlowDemo/WaterFlowDemo-Prefix.pch";
+				INFOPLIST_FILE = "WaterFlowDemo/WaterFlowDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82B3AE0A17601E08004E72D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TMQuiltView/TMQuiltViewTests/Frameworks\"",
+					"\"$(SRCROOT)/TMQuiltViewTests/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WaterFlowDemo/WaterFlowDemo-Prefix.pch";
+				INFOPLIST_FILE = "WaterFlowDemo/WaterFlowDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82B3ADE617601E08004E72D5 /* Build configuration list for PBXProject "WaterFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B3AE0617601E08004E72D5 /* Debug */,
+				82B3AE0717601E08004E72D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B3AE0817601E08004E72D5 /* Build configuration list for PBXNativeTarget "WaterFlowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82B3AE0917601E08004E72D5 /* Debug */,
+				82B3AE0A17601E08004E72D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82B3ADE317601E08004E72D5 /* Project object */;
+}
